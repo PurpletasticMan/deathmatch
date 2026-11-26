@@ -61,7 +61,7 @@ public class DeathmatchMod implements ModInitializer {
 								.suggests((c, b) -> SharedSuggestionProvider.suggest(Stream.of("5", "10", "15", "20", "25", "30"), b))
 								.then(Commands.argument("strength", IntegerArgumentType.integer(0, 5))
 										.suggests((c, b) -> SharedSuggestionProvider.suggest(Stream.of("0", "1", "2", "3", "4", "5"), b))
-										.executes(DeathmatchMod::startMatch))))));
+										.executes(DeathmatchMod::startMatch)))));
 	}
 
 	private static int startVideo(CommandContext<CommandSourceStack> ctx, String color) {
