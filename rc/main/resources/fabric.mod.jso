@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "deathmatch",
+	"version": "${version}",
+	"name": "Deathmatch",
+	"description": "Deathmatch rounds with a closing border, plus a /startvideo title command.",
+	"authors": ["You"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.deathmatch.DeathmatchMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
