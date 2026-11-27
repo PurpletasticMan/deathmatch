@@ -3,8 +3,8 @@
 	"id": "deathmatch",
 	"version": "${version}",
 	"name": "Deathmatch",
-	"description": "Deathmatch rounds with a closing border, plus a /startvideo title command.",
-	"authors": ["You"],
+	"description": "Deathmatch rounds with the world border, plus a /startvideo title command.",
+	"authors": ["PurpletasticMan"],
 	"license": "CC0-1.0",
 	"environment": "*",
 	"entrypoints": {
